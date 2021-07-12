@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla-weather-app</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="weather">
+        <form class="row g-3">
+          <div class="row g-3">
+            <div class="col-7">
+              <input
+                type="Search city"
+                class="form-control"
+                id="search-engine"
+                placeholder="Type a city.."
+              />
+            </div>
+            <div class="col">
+              <button
+                type="submit"
+                class="btn btn-primary w-50"
+                id="input-search"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </form>
+        <br />
+        <hr />
+        <h1 id="city-name">New York</h1>
+        <h2 id="current-day">Saturday <span id="time-element">12:42</span>,</h2>
+        <p id="description">Clear sky</p>
+        <ul>
+          <li id="humidity">Humidity: 20%</li>
+          <li id="wind">Wind: 4KM/hr</li>
+          <li id="precipitation-value">Precipitation: 0%</li>
+        </ul>
+        <h3 class="image">
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+            id="icon"
+          />
+          <span class="temp" id="temperature">21</span>
+          <span class="degree"
+            ><a href="" class="centigrade" id="celsius-link">°C</a> |<a
+              href=""
+              class="fahrenheit"
+              id="fahrenheit-link"
+              >°F</a
+            ></span
+          >
+        </h3>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <footer>
+      <a
+        href="https://github.com/Tumaini8/VANILLA-WEATHER-APPLICATION"
+        class="link"
+        >Open-source code</a
+      >, <span>by Tumaini Edgar</span>
+    </footer>
+  </body>
+</html>

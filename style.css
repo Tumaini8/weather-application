@@ -1,0 +1,72 @@
+form {
+  margin-bottom: 30px;
+}
+ul {
+  list-style: none;
+  padding-left: 2px;
+}
+li {
+  position: relative;
+  top: -50px;
+  font-size: 20px;
+}
+p {
+  font-size: 30px;
+  position: relative;
+  right: -384px;
+  bottom: -70px;
+}
+body {
+  background: #eaf6f6;
+}
+footer {
+  position: relative;
+  top: -70px;
+  right: -188px;
+}
+.image {
+  position: relative;
+  right: -370px;
+  top: -200px;
+}
+.temp {
+  font-size: 70px;
+  position: relative;
+  bottom: -20px;
+}
+.weather {
+  border: 1px solid #dadde1;
+  max-width: 799px;
+  min-width: 624px;
+  display: block;
+  margin: 70px;
+  border-radius: 10px;
+  box-shadow: #dab6b6;
+  padding: 20px 16px 24px 16px;
+  background: white;
+}
+.link {
+  text-decoration: none;
+}
+h3 .degree {
+  font-size: 25px;
+  position: relative;
+  left: -10px;
+  top: -10px;
+}
+h3 .centigrade {
+  text-decoration: none;
+  color: black;
+}
+h3 .fahrenheit {
+  text-decoration: none;
+}
+.fahrenheit:hover {
+  text-decoration: underline;
+}
+p::first-letter {
+  text-transform: uppercase;
+}
+.centigrade:hover {
+  cursor: default;
+}
