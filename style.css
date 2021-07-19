@@ -14,7 +14,7 @@ p {
   font-size: 30px;
   position: relative;
   right: -384px;
-  bottom: -70px;
+  bottom: -50px;
 }
 body {
   background: #eaf6f6;
@@ -27,7 +27,7 @@ footer {
 .image {
   position: relative;
   right: -370px;
-  top: -200px;
+  top: -390px;
 }
 .temp {
   font-size: 70px;
@@ -47,6 +47,9 @@ footer {
 }
 .link {
   text-decoration: none;
+}
+.min-temp {
+  opacity: 0.6;
 }
 h3 .degree {
   font-size: 25px;
@@ -69,4 +72,8 @@ p::first-letter {
 }
 .centigrade:hover {
   cursor: default;
+}
+#forecast-temp {
+  position: relative;
+  bottom: -30px;
 }
